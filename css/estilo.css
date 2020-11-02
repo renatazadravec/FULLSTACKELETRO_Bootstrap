@@ -64,27 +64,19 @@ main .jumbotron{
 
 /* INICIO PAGINA DE PRODUTOS */
 #pagina-produto{
-  width: 90%;
-  margin: auto;
   padding: 35px 0;
 }
 #pagina-produto .categorias {
-  width: 25%;
   text-align: left;
-  float: left;
 }
 #pagina-produto .categorias ul li {
   margin: 12px 0;
   cursor: pointer;
 }
 #pagina-produto .produtos{
-  float: right;
-  width: 75%;
   text-align: center;
 }
 #pagina-produto div.box_produto{
-  float: left;
-  width: 25%;
   height: 320px;
   padding: 30px;
   box-sizing: border-box;
@@ -108,18 +100,12 @@ main .jumbotron{
 
 /* INICIO NOSSAS LOJAS */
 #nossas-lojas {
-  width: 90%;
-  margin: auto;
   padding: 70px 0;
 }
 #pagina-contato{
-  width: 90%;
-  margin: auto;
   padding: 70px 0;
 }
 #pagina-pedido{
-  width: 90%;
-  margin: auto;
   padding: 70px 0;
 }
 

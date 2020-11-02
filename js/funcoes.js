@@ -2,7 +2,6 @@ function exibir_categoria(categoria) {
     let produtos = document.getElementsByClassName('box_produto')
 
     for(var i = 0; i < produtos.length; i++){
-
         if(produtos[i].classList.contains(categoria)){
             produtos[i].style = "display:block";
         }else{
