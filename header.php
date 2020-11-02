@@ -10,7 +10,7 @@
   <body>
     
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
                 <div class="logo">
                     <a class="navbar-brand" href="index.php">

@@ -12,8 +12,11 @@ body {
 
 /* INICIO MENU */
 header {
-  background-color: teal;
   width: 100%;
+}
+header nav{
+  background-color: teal!important;
+
 }
 header .container{
   width: 90%;
@@ -198,12 +201,6 @@ footer{
 }
 footer h4 {
   color: red;
-}
-footer div {
-  text-align: center;
-}
-footer div img {
-  width: 35%;
 }
 footer .barra-footer{
   background: teal;
