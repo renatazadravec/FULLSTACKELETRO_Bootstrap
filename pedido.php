@@ -1,9 +1,15 @@
 <?php include_once("header.php"); ?>
 
 <section id="pagina-pedido">
-  <h2>Pedido</h2>
-  <hr />
-  <br>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h2><b>Pedido</b></h2><hr>
+      </div>
+    </div>
+  </div>
+ 
   <?php
   if(isset($_POST['nome_cliente'])){
     $nome_cliente = $_POST['nome_cliente'];
@@ -18,30 +24,51 @@
     $result = $conn->query($sql);
   }
   ?>
-  <form method="post" action="">
-    <label for="nome_cliente">Nome:</label>
-    <input type="text" id="nome_cliente" name="nome_cliente" class="input" required />
 
-    <label for="endereco">Endereço:</label>
-    <input type="text" id="endereco" name="endereco" class="input" required />
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <form method="post" action="">
+          <div class="form-group">
+            <label for="nome_cliente">Nome:</label>
+            <input type="text" id="nome_cliente" name="nome_cliente" class="input form-control" required />
+          </div>
 
-    <label for="telefone">Telefone:</label>
-    <input type="number" id="telefone" name="telefone" class="input" required />
+          <div class="form-group">
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco" class="input form-control" required />
+          </div>
 
-    <label for="nome_do_produto">Produto:</label>
-    <input type="text" id="nome_do_produto" name="nome_do_produto" class="input" required />
+          <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="number" id="telefone" name="telefone" class="input form-control" required />
+          </div>
 
-    <label for="valor_unitario">Valor Unitário:</label>
-    <input type="text" id="valor_unitario" name="valor_unitario" class="input" required />
+          <div class="form-group">
+            <label for="nome_do_produto">Produto:</label>
+            <input type="text" id="nome_do_produto" name="nome_do_produto" class="input form-control" required />
+          </div>
 
-    <label for="quantidade">Quantidade:</label>
-    <input type="number" id="quantidade" name="quantidade" class="input" required />
+          <div class="form-group">
+            <label for="valor_unitario">Valor Unitário:</label>
+            <input type="text" id="valor_unitario" name="valor_unitario" class="input form-control" required />
+          </div>
 
-    <label for="valor_total">Valor Total:</label>
-    <input type="text" id="valor_total" name="valor_total" class="input" required />
+          <div class="form-group">
+            <label for="quantidade">Quantidade:</label>
+            <input type="number" id="quantidade" name="quantidade" class="input form-control" required />
+          </div>
 
-    <input type="submit" class="submit" value="Enviar" />
-  </form>
+          <div class="form-group">
+            <label for="valor_total">Valor Total:</label>
+            <input type="text" id="valor_total" name="valor_total" class="input form-control" required />
+          </div>
+
+          <input type="submit" class="btn submit" value="Enviar" />
+        </form>
+      </div>
+    </div>
+  </div>
 </section>
 
 <?php include_once("footer.php"); ?>
