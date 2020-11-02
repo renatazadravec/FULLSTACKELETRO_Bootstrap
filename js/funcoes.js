@@ -23,13 +23,3 @@ imagensProdutos.forEach((img)=>{
     })
 })
 
-let itensMenu = document.querySelector(".menu").querySelectorAll("a");
-itensMenu.forEach(function(item){
-    item.addEventListener("mousemove", function(){
-        item.style.color = "#fceb71";
-    })
-    item.addEventListener("mouseleave", function(){
-        item.style.color = "#fff";
-    })
-
-})

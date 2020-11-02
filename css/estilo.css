@@ -41,8 +41,11 @@ header .menu ul li{
   display: inline-block;
 }
 header .menu ul li a{
-  color: #fff;
+  color: #fff!important;
   text-decoration: none;
+}
+header .menu ul li a:hover{
+  color: #fceb71!important;
 }
 
 
