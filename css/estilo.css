@@ -58,6 +58,9 @@ main {
   margin: auto;
   padding: 150px 0;
 }
+main .jumbotron{
+  background-color: unset;
+}
 
 /* INICIO PAGINA DE PRODUTOS */
 #pagina-produto{
